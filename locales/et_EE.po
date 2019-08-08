@@ -547,8 +547,8 @@ msgstr "%1$s: %2$s"
 #: install/update_0681_07.php:573 install/update_0723_078.php:3659
 msgid "Email"
 msgid_plural "Emails"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "E-mail"
+msgstr[1] "E-mailid"
 
 #: ajax/dropdownMassiveActionAddActor.php:46
 #: ajax/dropdownMassiveActionAddValidator.php:54
@@ -758,8 +758,8 @@ msgstr "Märgi selle asukoha laius- ja pikkuskraadid."
 #: inc/ruleaction.class.php:672 inc/rule.class.php:1089
 msgid "Action"
 msgid_plural "Actions"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Toiming"
+msgstr[1] "Toimingud"
 
 #: ajax/planningcheck.php:49 ajax/planningcheck.php:51
 #: ajax/planningcheck.php:57 front/planning.php:58
@@ -961,8 +961,8 @@ msgstr "Piirangud puuduvad"
 #: inc/user.class.php:4708
 msgid "Entity"
 msgid_plural "Entities"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Olem"
+msgstr[1] "Olemid"
 
 #: ajax/switchdebug.php:46
 msgid "Debug mode has been enabled!"
@@ -1903,8 +1903,8 @@ msgstr "Ühtegi asja polnud valitud"
 #: inc/event.class.php:151 inc/profile.class.php:1891
 msgid "Dropdown"
 msgid_plural "Dropdowns"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Rippmenüü"
+msgstr[1] "Rippmenüüd"
 
 #: front/find_num.php:68
 msgid "Search the ID of your hardware"
@@ -2086,14 +2086,14 @@ msgstr "Inventarinumber"
 #: inc/profile.class.php:1623
 msgid "Computer"
 msgid_plural "Computers"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Arvuti"
+msgstr[1] "Arvutid"
 
 #: front/find_num.php:94 inc/networkequipment.class.php:60
 msgid "Network device"
 msgid_plural "Network devices"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Võrguseade"
+msgstr[1] "Võrguseadmed"
 
 #: front/find_num.php:95 inc/cartridge.class.php:1150 inc/lock.class.php:570
 #: inc/printer.class.php:60 inc/profile.class.php:784
@@ -2101,24 +2101,24 @@ msgstr[1] ""
 #: inc/rulecollection.class.php:2069 inc/transfer.class.php:3470
 msgid "Printer"
 msgid_plural "Printers"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Printer"
+msgstr[1] "Printerid"
 
 #: front/find_num.php:96 inc/lock.class.php:568 inc/monitor.class.php:57
 #: inc/profile.class.php:775 inc/profile.class.php:1637
 #: inc/transfer.class.php:3460 inc/wifinetwork.class.php:71
 msgid "Monitor"
 msgid_plural "Monitors"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Monitor"
+msgstr[1] "Monitorid"
 
 #: front/find_num.php:97 inc/lock.class.php:569 inc/peripheral.class.php:60
 #: inc/profile.class.php:796 inc/profile.class.php:1693
 #: inc/transfer.class.php:3480
 msgid "Device"
 msgid_plural "Devices"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Seade"
+msgstr[1] "Seadmed"
 
 #: front/find_num.php:149 inc/computer_softwareversion.class.php:736
 #: inc/config.class.php:3232 inc/dropdown.class.php:1065
@@ -2133,8 +2133,8 @@ msgstr[1] ""
 #: install/update_0713_072.php:504
 msgid "Software"
 msgid_plural "Software"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Tarkvara"
+msgstr[1] "Tarkvarad"
 
 #. TRANS: %s is the user login
 #: front/group_user.form.php:50 front/user.form.php:118
@@ -2437,15 +2437,15 @@ msgstr "Logi uuesti sisse"
 #: inc/notificationtargetmailcollector.class.php:96
 msgid "Receiver"
 msgid_plural "Receivers"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Vastuvõtja"
+msgstr[1] "Vastuvõtjad"
 
 #: front/mailcollector.php:44 front/setup.auth.php:57
 #: inc/authldap.class.php:451 inc/authmail.class.php:210
 #: inc/config.class.php:2444
 #, php-format
 msgid "%s extension is missing"
-msgstr ""
+msgstr "%s laiendus puudub"
 
 #: front/massiveaction.php:45
 msgid "Bulk modification error"
@@ -2798,8 +2798,8 @@ msgstr "Garantii lõpukuupäev"
 #: inc/dropdown.class.php:884
 msgid "Contract type"
 msgid_plural "Contract types"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Lepingu tüüp"
+msgstr[1] "Lepingu tüübid"
 
 #: front/report.contract.list.php:183 front/report.infocom.conso.php:64
 #: front/report.infocom.php:64 front/report.year.list.php:139
@@ -2995,8 +2995,8 @@ msgstr "Kanna üle"
 #: front/rule.php:70 inc/blacklist.class.php:85 inc/dropdown.class.php:830
 msgid "Blacklist"
 msgid_plural "Blacklists"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Must nimekiri"
+msgstr[1] "Mustad nimekirjad"
 
 #. TRANS: %s is the user login
 #: front/savedsearch_alert.form.php:53
@@ -3034,8 +3034,8 @@ msgstr "Väline kasutajatuvastus"
 #: inc/ruleright.class.php:235 inc/user.class.php:4660
 msgid "LDAP directory"
 msgid_plural "LDAP directories"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "LDAP kataloog"
+msgstr[1] "LDAP kataloogid"
 
 #: front/setup.auth.php:49
 msgid "The LDAP extension of your PHP parser isn't installed"
@@ -3049,8 +3049,8 @@ msgstr "LDAP servereid ei saa kasutajatuvastamiseks rakendada"
 #: inc/notificationmailingsetting.class.php:198
 msgid "Mail server"
 msgid_plural "Mail servers"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Meili server"
+msgstr[1] "Meili serverid"
 
 #: front/setup.auth.php:58 inc/authmail.class.php:211
 msgid "Impossible to use email server as external source of connection"
@@ -3071,8 +3071,8 @@ msgstr "Teised kasutajatuvastuse viisid"
 #: inc/profile.class.php:1920
 msgid "Notification"
 msgid_plural "Notifications"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Teade"
+msgstr[1] "Teated"
 
 #: front/setup.templates.php:55 inc/html.class.php:6586
 msgid "Manage templates..."
@@ -3179,8 +3179,8 @@ msgstr "Keskmine kestvus"
 #: inc/levelagreement.class.php:201
 msgid "Hour"
 msgid_plural "Hours"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Tund"
+msgstr[1] "Tunnid"
 
 #: front/stat.global.php:131 front/stat.graph.php:386
 #: inc/commonitilobject.class.php:4775 inc/stat.class.php:469
@@ -3210,15 +3210,15 @@ msgstr "Teated"
 msgctxt "survey"
 msgid "Opened"
 msgid_plural "Opened"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Avatud"
+msgstr[1] "Avatud"
 
 #: front/stat.global.php:162 front/stat.graph.php:439 inc/stat.class.php:451
 msgctxt "survey"
 msgid "Answered"
 msgid_plural "Answered"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Vastatud"
+msgstr[1] "Vastatud"
 
 #: front/stat.global.php:174 front/stat.global.php:177
 #: front/stat.graph.php:452 front/stat.graph.php:455
@@ -3250,8 +3250,8 @@ msgstr "Vastutaja"
 #: inc/supplier.class.php:56 inc/transfer.class.php:3503
 msgid "Supplier"
 msgid_plural "Suppliers"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Tarnija"
+msgstr[1] "Tarnijad"
 
 #: front/stat.graph.php:105 front/stat.graph.php:112
 #: inc/authldap.class.php:1549 inc/authldap.class.php:1598
@@ -3294,8 +3294,8 @@ msgstr[1] ""
 #: install/update_0713_072.php:549
 msgid "User"
 msgid_plural "Users"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Kasutaja"
+msgstr[1] "Kasutajad"
 
 #: front/stat.graph.php:125 front/stat.graph.php:215
 #: front/stat.tracking.php:82 front/stat.tracking.php:84
@@ -3441,8 +3441,8 @@ msgstr[1] "Tüübid"
 #: inc/user.class.php:4179
 msgid "Group"
 msgid_plural "Groups"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Grupp"
+msgstr[1] "Grupid"
 
 #: front/stat.graph.php:178 front/stat.tracking.php:88
 #: inc/change.class.php:825 inc/commonitilobject.class.php:2949
@@ -4600,8 +4600,8 @@ msgstr "Nimekiri LDAP kataloogide kopeerimisest"
 #: inc/authldap.class.php:593 inc/authldap.class.php:3561
 msgid "Replicate"
 msgid_plural "Replicates"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Replikaat"
+msgstr[1] "Replikaadid"
 
 #: inc/authldap.class.php:607 inc/authldap.class.php:743
 #: inc/authldap.class.php:3555 inc/authmail.class.php:239
@@ -4962,8 +4962,8 @@ msgstr "E-kirja sisu must nimekiri"
 #: inc/projectcost.class.php:312 inc/projectcost.class.php:377
 msgid "Budget"
 msgid_plural "Budgets"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Eelarve"
+msgstr[1] "Eelarved"
 
 #: inc/budget.class.php:76 inc/user.class.php:219
 msgid "Main"
@@ -5684,8 +5684,8 @@ msgstr "Sertifikaadi taotlus (CSR)"
 #: inc/ticket.class.php:4946 inc/user.class.php:4060 inc/user.class.php:4140
 msgid "Status"
 msgid_plural "Statuses"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Staatus"
+msgstr[1] "Staatused"
 
 #: inc/certificate.class.php:255 inc/document.class.php:1004
 msgctxt "quantity"
@@ -11309,8 +11309,8 @@ msgstr ""
 #: inc/rulecollection.class.php:1997
 msgid "Rule"
 msgid_plural "Rules"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Reegel"
+msgstr[1] "Reeglid"
 
 #: inc/event.class.php:162
 msgid "Security"
@@ -13173,19 +13173,19 @@ msgstr "Ruuminumber"
 
 #: inc/location.class.php:94
 msgid "Location on map"
-msgstr ""
+msgstr "Asukoht kaardil"
 
 #: inc/location.class.php:98 inc/location.class.php:208
 #: inc/location.class.php:248 inc/notificationtargetticket.class.php:607
 #: inc/notificationtargetticket.class.php:629
 msgid "Latitude"
-msgstr ""
+msgstr "Geograafiline laius"
 
 #: inc/location.class.php:103 inc/location.class.php:217
 #: inc/location.class.php:257 inc/notificationtargetticket.class.php:610
 #: inc/notificationtargetticket.class.php:630
 msgid "Longitude"
-msgstr ""
+msgstr "Geograafiline pikkus"
 
 #: inc/location.class.php:108 inc/location.class.php:266
 #: inc/notificationtargetticket.class.php:613
@@ -13200,13 +13200,13 @@ msgstr "Asukoha seletus"
 
 #: inc/location.class.php:502
 msgid "Set location here"
-msgstr ""
+msgstr "Määra asukohta siia"
 
 #: inc/lock.class.php:53
 msgid "Lock"
 msgid_plural "Locks"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Lukk"
+msgstr[1] "Lukud"
 
 #: inc/lock.class.php:80
 msgid "Locked items"
@@ -13820,8 +13820,8 @@ msgstr "Võrguliideseid ei leitud"
 #: inc/networkport.class.php:1025
 msgid "Port number"
 msgid_plural "Ports number"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Pordi number"
+msgstr[1] "Pordi numbrid"
 
 #: inc/networkport.class.php:937 inc/networkport.class.php:1041
 msgid "Network port type"
@@ -13844,7 +13844,7 @@ msgstr "Ühendatud seade"
 
 #: inc/networkportethernet.class.php:43
 msgid "Ethernet port"
-msgstr ""
+msgstr "Ethrnet port"
 
 #: inc/networkportethernet.class.php:87 inc/networkportethernet.class.php:132
 #: inc/networkportethernet.class.php:199
@@ -13938,7 +13938,7 @@ msgstr ""
 
 #: inc/networkportinstantiation.class.php:299
 msgid "this port"
-msgstr ""
+msgstr "see port"
 
 #: inc/networkportinstantiation.class.php:532
 msgid "No network card available"
@@ -16036,8 +16036,8 @@ msgstr[1] ""
 #: inc/report.class.php:58
 msgid "Report"
 msgid_plural "Reports"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Aruanne"
+msgstr[1] "Aruanded"
 
 #: inc/profile.class.php:933
 msgid "Administration of reservations"
@@ -17017,19 +17017,19 @@ msgstr ""
 
 #: inc/rulecollection.class.php:1251
 msgid "Rules refused"
-msgstr ""
+msgstr "Reegel tagasilükatud"
 
 #: inc/rulecollection.class.php:1281
 msgid "Entity not found"
-msgstr ""
+msgstr "Olemit ei leitud"
 
 #: inc/rulecollection.class.php:1298
 msgid "Criteria refused"
-msgstr ""
+msgstr "Kriteerium tagasilükatud"
 
 #: inc/rulecollection.class.php:1330
 msgid "Actions refused"
-msgstr ""
+msgstr "Toiming tagasilükatud"
 
 #: inc/rulecollection.class.php:1497
 msgid "Successful importation"
@@ -17041,7 +17041,7 @@ msgstr "Kontrollitavad asjad puuduvad"
 
 #: inc/rulecollection.class.php:1785
 msgid "Inactive"
-msgstr ""
+msgstr "Inaktiivne"
 
 #. TRANS: %s is the entity name
 #: inc/rulecollection.class.php:1993
@@ -17399,11 +17399,11 @@ msgstr ""
 
 #: inc/rulemailcollector.class.php:183
 msgid "Entity from domain"
-msgstr ""
+msgstr "Olemi domeenist"
 
 #: inc/rulemailcollector.class.php:187 inc/ruleright.class.php:294
 msgid "Entity from TAG"
-msgstr ""
+msgstr "Olemi TAG'ist"
 
 #: inc/rulemailcollector.class.php:191
 msgid "Entity based on user's profile"
@@ -17531,8 +17531,8 @@ msgstr[1] ""
 #: inc/savedsearch.class.php:1420
 msgid "Saved search"
 msgid_plural "Saved searches"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Salvestatud otsing"
+msgstr[1] "Salvestatud otsingud"
 
 #: inc/savedsearch_alert.class.php:148 inc/savedsearch_alert.class.php:253
 msgid "Operator"
@@ -18320,7 +18320,7 @@ msgstr "See teade puudutab mind"
 
 #: inc/ticket.class.php:3867 inc/ticket.class.php:3897
 msgid "Check your personnal information"
-msgstr ""
+msgstr "Kontrolli oma andmeid"
 
 #: inc/ticket.class.php:3988
 msgid "Describe the incident or request"
