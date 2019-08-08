@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # pexy <pexyyy@gmail.com>, 2018
 # DOMBRE Julien <moyo@indepnet.net>, 2018
@@ -11,7 +11,7 @@
 # Diana Lõhmus <diana.lohmus@saaremaavald.ee>, 2018
 # alexandre delaunay <delaunay.alexandre@gmail.com>, 2019
 # Roomet K. <progeja@gmail.com>, 2019
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -747,11 +747,11 @@ msgstr ""
 
 #: ajax/getMapPoint.php:75
 msgid "Location seems not geolocalized!"
-msgstr ""
+msgstr "Asukoht ei ole geograafiliselt määratletud!
 
 #: ajax/getMapPoint.php:76
 msgid "Consider filling latitude and longitude on this location."
-msgstr ""
+msgstr "Märgi selle asukoha laius- ja pikkuskraadid."
 
 #: ajax/massiveaction.php:72 inc/html.class.php:2455
 #: inc/mailcollector.class.php:215 inc/ruleaction.class.php:88
@@ -869,7 +869,7 @@ msgstr "Lisa uus seade"
 
 #: ajax/selectUnaffectedOrNewItem_Device.php:72
 msgid "No unaffected device !"
-msgstr "Puudutamat seadmed puuduvad !"
+msgstr "Puudutamatud seadmed puuduvad!"
 
 #: ajax/subvisibility.php:59
 msgid "No restriction"
@@ -970,7 +970,7 @@ msgstr "Debug režiim on aktiveeritud."
 
 #: ajax/switchdebug.php:47
 msgid "Debug mode has been disabled!"
-msgstr "debug režiim on välja lülitatud"
+msgstr "Silumisrežiim on välja lülitatud"
 
 #: ajax/telemetry.php:42
 msgid ""
@@ -978,7 +978,7 @@ msgid ""
 "responsiveness statistics about user interface features, memory, and "
 "hardware configuration."
 msgstr ""
-"Me kogume ainult järgmisi andmeid: pluginate kasutamine, kasutajaliidese, "
+"Me kogume ainult järgmisi andmeid: pistikmoodulite kasutamine, kasutajaliidese, "
 "mälu ja riistvara seadistuse jõudluse statistika."
 
 #. TRANS: %d is number of objects for the user
@@ -1000,7 +1000,7 @@ msgstr[1] ""
 
 #: ajax/ticketsatisfaction.php:58 inc/entity.class.php:1039
 msgid "Create survey after"
-msgstr "Saada rahulolu-uuring peale"
+msgstr "Saada tagasiside vorm pärast"
 
 #: ajax/ticketsatisfaction.php:65 inc/crontask.class.php:544
 #: inc/crontask.class.php:573
@@ -1009,7 +1009,7 @@ msgstr "Esimesel võimalusel"
 
 #: ajax/ticketsatisfaction.php:70
 msgid "Rate to trigger survey"
-msgstr "Rahulolu-uuringu saajate maht"
+msgstr "Tagaside vormi saajate maht"
 
 #: ajax/ticketsatisfaction.php:76 inc/apiclient.class.php:297
 #: inc/config.class.php:433 inc/crontask.class.php:694
@@ -1171,7 +1171,7 @@ msgstr "GLPI sisemine varundussüsteem on abiks väga vähestel juhtudel"
 
 #: front/backup.php:585
 msgid "You should rather use a dedicated tool on your server."
-msgstr "Peaksite pigem spetsiaalset vahendit oma serveris"
+msgstr "Peaksite pigem kasutama spetsiaalset tööriista oma serveris"
 
 #: front/backup.php:591 front/backup.php:596
 msgid "Backup the database?"
@@ -1564,8 +1564,8 @@ msgstr[1] ""
 #: inc/transfer.class.php:3397
 msgid "Ticket"
 msgid_plural "Tickets"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Teade"
+msgstr[1] "Teated"
 
 #. TRANS: %s is the user login
 #: front/commonitilcost.form.php:66 front/contractcost.form.php:57
@@ -1664,15 +1664,15 @@ msgstr "%s seostab arvuti ja litsentsi"
 #: front/computer_softwareversion.form.php:50
 #, php-format
 msgid "%s installs software"
-msgstr "%s paigaldas tarkvara"
+msgstr "%s paigaldab tarkvara"
 
 #: front/computer_softwareversion.form.php:55
 msgid "Please select a software!"
-msgstr ""
+msgstr "Palun valige tarkvara"
 
 #: front/computer_softwareversion.form.php:57
 msgid "Please select a version!"
-msgstr ""
+msgstr "Palun valige versioon"
 
 #. TRANS: %s is the user login
 #: front/computervirtualmachine.form.php:54
@@ -1813,7 +1813,7 @@ msgstr "Järgmine käivitus"
 #: front/crontask.php:50
 #, php-format
 msgid "Next task to run: %s"
-msgstr "Järgmine tööülesanne käivitamiseks %s"
+msgstr "Järgmine tööülesanne käivitamiseks: %s"
 
 #: front/crontask.php:52 front/crontask.php:53
 msgid "No action pending"
@@ -2223,7 +2223,7 @@ msgstr "Kirjelda oma probleemi"
 #: inc/reminder.class.php:706 inc/ruleticket.class.php:345
 #: inc/ticket.class.php:4121 inc/ticket.class.php:5165 inc/user.class.php:3161
 msgid "Title"
-msgstr "Ametikoht"
+msgstr "Pealkiri"
 
 #: front/helpdesk.php:109 inc/blacklistedmailcontent.class.php:70
 #: inc/blacklistedmailcontent.class.php:84 inc/knowbaseitem.class.php:790
@@ -2776,8 +2776,8 @@ msgstr "Kustutatud"
 #: inc/user.class.php:2378 inc/user.class.php:2620
 msgid "Location"
 msgid_plural "Locations"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Asukoht"
+msgstr[1] "Asukohad"
 
 #: front/report.contract.list.php:180 front/report.infocom.php:131
 #: front/report.year.list.php:136 inc/entity.class.php:970
@@ -3150,15 +3150,15 @@ msgstr "Lepingunumber"
 msgctxt "ticket"
 msgid "Opened"
 msgid_plural "Opened"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Avatud"
+msgstr[1] "Avatud"
 
 #: front/stat.global.php:90 front/stat.graph.php:346 inc/stat.class.php:432
 msgctxt "ticket"
 msgid "Solved"
 msgid_plural "Solved"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Lahendatud"
+msgstr[1] "Lahendatud"
 
 #: front/stat.global.php:93 front/stat.graph.php:349 inc/stat.class.php:434
 msgid "Late"
@@ -3405,8 +3405,8 @@ msgstr "Valdkond"
 #: inc/user.class.php:4135
 msgid "Type"
 msgid_plural "Types"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Tüüp"
+msgstr[1] "Tüübid"
 
 #: front/stat.graph.php:162 front/stat.graph.php:170
 #: front/stat.tracking.php:79 front/stat.tracking.php:106
@@ -3493,8 +3493,8 @@ msgstr "Ametikoht"
 #: inc/solutiontype.class.php:42
 msgid "Solution type"
 msgid_plural "Solution types"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Lahenduse tüüp"
+msgstr[1] "Lahenduse tüübid"
 
 #: front/stat.graph.php:223 front/stat.tracking.php:93
 #: inc/dropdown.class.php:845 inc/itilfollowup.class.php:500
@@ -3505,8 +3505,8 @@ msgstr[1] ""
 #: inc/ticket.class.php:3023 inc/ticket.class.php:4966
 msgid "Request source"
 msgid_plural "Request sources"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Taotluse allikas"
+msgstr[1] "Taotluse allikad"
 
 #: front/stat.graph.php:287 front/stat.graph.php:288
 #: inc/commonglpi.class.php:838 inc/commonglpi.class.php:839
@@ -3572,8 +3572,8 @@ msgstr "Töötluses"
 #: inc/ruleimportcomputer.class.php:106
 msgid "Model"
 msgid_plural "Models"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Mudel"
+msgstr[1] "Mudelid"
 
 #: front/stat.location.php:85 inc/dropdown.class.php:1008
 #: inc/dropdown.class.php:1009 inc/item_operatingsystem.class.php:58
@@ -3586,8 +3586,8 @@ msgstr[1] ""
 #: inc/softwareversion.class.php:314
 msgid "Operating system"
 msgid_plural "Operating systems"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Operatsioonisüsteem"
+msgstr[1] "Operatsioonisüsteemid"
 
 #: front/stat.location.php:102 front/stat.tracking.php:130
 msgid "Show graphics"
@@ -3639,8 +3639,8 @@ msgstr "%1$s rahuloluuuring %2$s"
 #: inc/ruleticket.class.php:547 inc/ticket.class.php:5855
 msgid "Requester"
 msgid_plural "Requesters"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Taotleja"
+msgstr[1] "Taotlejad"
 
 #: front/stat.tracking.php:78 inc/commonitilobject.class.php:3280
 #: inc/commonitiltask.class.php:739 inc/itilfollowup.class.php:632
@@ -4004,8 +4004,8 @@ msgstr "Vaata dokumentatsiooni oma veebilehitsejast %s"
 #: inc/apiclient.class.php:57
 msgid "API client"
 msgid_plural "API clients"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "API klient"
+msgstr[1] "API kliendid"
 
 #: inc/apiclient.class.php:98 inc/apiclient.class.php:193
 #: inc/authldap.class.php:372 inc/authldap.class.php:1148
@@ -4114,8 +4114,8 @@ msgstr "Ajalugu"
 #: inc/profile.class.php:2195
 msgid "Log"
 msgid_plural "Logs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Logifail"
+msgstr[1] "Logifailid"
 
 #: inc/apirest.class.php:55
 msgid "Rest API"
@@ -4177,14 +4177,14 @@ msgstr "Automaatne sisse logimine on keelatud"
 #: inc/auth.class.php:712
 msgid "Connection to LDAP directory failed"
 msgid_plural "Connection to LDAP directories failed"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Ühendus LDAP'i kataloogi ebaõnnestus"
+msgstr[1] "Ühendus LDAP'i kataloogidesse ebaõnnestus"
 
 #: inc/auth.class.php:720
 msgid "User not found in LDAP directory"
 msgid_plural "User not found in LDAP directories"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Ei leitud kasutajad LDAP'i kataloogist"
+msgstr[1] "Ei leitud kasutajad LDAP'i kataloogidest"
 
 #: inc/auth.class.php:731 inc/auth.class.php:738
 msgid "Empty login or password"
@@ -4301,8 +4301,8 @@ msgstr ""
 #: inc/notificationmailingsetting.class.php:216 inc/printer.class.php:425
 msgid "Port"
 msgid_plural "Ports"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Port"
+msgstr[1] "Pordid"
 
 #. TRANS: for CAS SSO system
 #: inc/auth.class.php:1381
@@ -4389,8 +4389,8 @@ msgstr "Administratiivnumber"
 #: install/update_0681_07.php:559 install/update_0723_078.php:3661
 msgid "Phone"
 msgid_plural "Phones"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Telefon"
+msgstr[1] "Telefonid"
 
 #: inc/auth.class.php:1502 inc/authldap.class.php:803
 #: inc/authldap.class.php:996 inc/authldap.class.php:3210
@@ -7522,7 +7522,7 @@ msgstr "Kinnituse päringu vastus"
 
 #: inc/commonitilvalidation.class.php:974
 msgid "Status of my validation"
-msgstr ""
+msgstr "Kinnituse staatus"
 
 #: inc/commonitilvalidation.class.php:980 inc/itilfollowup.class.php:667
 msgid "Optional when approved"
@@ -14964,7 +14964,7 @@ msgstr "Tegelik kestus"
 #: inc/notificationtargetprojecttask.class.php:477
 msgctxt "quantity"
 msgid "Number of team members"
-msgstr ""
+msgstr "Meeskonna liikmete arv"
 
 #: inc/notificationtargetproject.class.php:665
 #: inc/notificationtargetproject.class.php:669
@@ -14974,16 +14974,16 @@ msgstr ""
 #: inc/notificationtargetprojecttask.class.php:575
 msgid "Team member"
 msgid_plural "Team members"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Meeskonna liige"
+msgstr[1] "Meeskonna liikmed"
 
 #: inc/notificationtargetproject.class.php:684
 #: inc/notificationtargetprojecttask.class.php:561
 #: inc/projectteam.class.php:70
 msgid "Project team"
 msgid_plural "Project teams"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Projekti meeskond"
+msgstr[1] "Projekti meeskonnad"
 
 #: inc/notificationtargetprojecttask.class.php:52
 msgid "New project task"
