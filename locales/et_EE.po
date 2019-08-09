@@ -747,7 +747,7 @@ msgstr ""
 
 #: ajax/getMapPoint.php:75
 msgid "Location seems not geolocalized!"
-msgstr "Asukoht ei ole geograafiliselt määratletud!
+msgstr "Asukoht ei ole geograafiliselt määratletud!"
 
 #: ajax/getMapPoint.php:76
 msgid "Consider filling latitude and longitude on this location."
@@ -4895,8 +4895,8 @@ msgstr "Kontrolli ühendust IMAP/POP serverisse"
 #: inc/computer.class.php:618
 msgid "Update Source"
 msgid_plural "Update Sources"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Uuenda allikat"
+msgstr[1] "Uuenda allikaid"
 
 #: inc/backup.class.php:72 inc/commondbtm.class.php:4986
 #: inc/log.class.php:1232 inc/profile.class.php:804 inc/profile.class.php:1410
@@ -4992,8 +4992,8 @@ msgstr "Üldine"
 #: inc/reservationitem.class.php:364
 msgid "Item"
 msgid_plural "Items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Asi"
+msgstr[1] "Asjad"
 
 #: inc/budget.class.php:330 inc/item_devices.class.php:1264
 #: inc/supplier.class.php:455
@@ -5012,8 +5012,8 @@ msgstr "Pole seotud asju"
 #: inc/notificationtargetticket.class.php:717 inc/supplier.class.php:457
 msgid "Associated item"
 msgid_plural "Associated items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Seotud  asi"
+msgstr[1] "Seotud  asjad"
 
 #. TRANS : %1$s is the itemtype name, %2$s is the name of the item (used for
 #. headings of a list)
@@ -5111,8 +5111,8 @@ msgstr "Eelarve jääk"
 #: inc/budgettype.class.php:45 inc/dropdown.class.php:909
 msgid "Budget type"
 msgid_plural "Budget types"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Eelarve tüüp"
+msgstr[1] "Eelarve tüübid"
 
 #: inc/businesscriticity.class.php:45 inc/dropdown.class.php:990
 #: inc/infocom.class.php:1216 inc/infocom.class.php:1598
@@ -5129,8 +5129,8 @@ msgstr[1] ""
 #: inc/ticketrecurrent.class.php:163 inc/ticketrecurrent.class.php:284
 msgid "Calendar"
 msgid_plural "Calendars"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Kalender"
+msgstr[1] "Kalenderid"
 
 #: inc/calendar.class.php:86 inc/calendar.class.php:104 inc/rule.class.php:557
 #: inc/rule.class.php:585
@@ -5157,8 +5157,8 @@ msgstr[1] ""
 #: inc/calendarsegment.class.php:60
 msgid "Time range"
 msgid_plural "Time ranges"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Ajavahemik"
+msgstr[1] "Ajavahemikud"
 
 #: inc/calendarsegment.class.php:69
 msgid "Can not add a range riding an existing period"
@@ -5175,16 +5175,16 @@ msgstr "Lisa ajavahemik"
 #: inc/reservation.class.php:1022
 msgid "Day"
 msgid_plural "Days"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Päev"
+msgstr[1] "Päevad"
 
 #: inc/cartridge.class.php:98 inc/cartridgeitem.class.php:310
 #: inc/entity.class.php:1720 inc/printer.class.php:706
 #: inc/profile.class.php:787 inc/profile.class.php:1707
 msgid "Cartridge"
 msgid_plural "Cartridges"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Kassett"
+msgstr[1] "Kassettid"
 
 #: inc/cartridge.class.php:288
 msgid "Installing a cartridge"
@@ -5202,24 +5202,24 @@ msgstr "Eemalda kassett"
 msgctxt "cartridge"
 msgid "New"
 msgid_plural "New"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Uus"
+msgstr[1] "Uued"
 
 #: inc/cartridge.class.php:375 inc/cartridge.class.php:426
 #: inc/cartridge.class.php:621
 msgctxt "cartridge"
 msgid "Used"
 msgid_plural "Used"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Kasutatud"
+msgstr[1] "Kasutatud"
 
 #: inc/cartridge.class.php:377 inc/cartridge.class.php:428
 #: inc/cartridge.class.php:623
 msgctxt "cartridge"
 msgid "Worn"
 msgid_plural "Worn"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Kulunud"
+msgstr[1] "Kulunud"
 
 #. TRANS : for display cartridges count : %1$d is the total number,
 #. %2$d the new one, %3$d the used one, %4$d worn one
@@ -5299,8 +5299,8 @@ msgstr "Raamatupidamislik ja haldusinformatsioon"
 #, php-format
 msgid "%d printed page"
 msgid_plural "%d printed pages"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d prinditud leht"
+msgstr[1] "%d prinditud lehed"
 
 #: inc/cartridge.class.php:802
 msgid "Counter error"
@@ -5314,8 +5314,8 @@ msgstr "Keskmine aeg laos"
 #: inc/contract_item.class.php:397
 msgid "month"
 msgid_plural "months"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "kuu"
+msgstr[1] "kuud"
 
 #: inc/cartridge.class.php:820 inc/cartridge.class.php:1100
 msgid "Average time in use"
@@ -5363,15 +5363,15 @@ msgstr "Kasutuses olnud kassetid"
 #: inc/notificationtargetcartridgeitem.class.php:82
 msgid "Cartridge model"
 msgid_plural "Cartridge models"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Kasseti mudel"
+msgstr[1] "Kasseti mudelid"
 
 #: inc/cartridge.class.php:1006 inc/cartridgeitemtype.class.php:42
 #: inc/dropdown.class.php:878
 msgid "Cartridge type"
 msgid_plural "Cartridge types"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Kasseti tüüp"
+msgstr[1] "Kasseti tüübid"
 
 #: inc/cartridge.class.php:1012
 msgid "Printed pages"
@@ -5397,8 +5397,8 @@ msgstr "Prinditud leheküljed"
 #, php-format
 msgid "%d month"
 msgid_plural "%d months"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d kuu"
+msgstr[1] "%d kuud"
 
 #: inc/cartridgeitem.class.php:199 inc/cartridgeitem.class.php:286
 #: inc/consumableitem.class.php:143 inc/consumableitem.class.php:246
@@ -5437,8 +5437,8 @@ msgstr "Viide"
 #: inc/ruleimportcomputer.class.php:109 inc/search.class.php:6576
 msgid "Manufacturer"
 msgid_plural "Manufacturers"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Tootja"
+msgstr[1] "Tootjad"
 
 #: inc/cartridgeitem.class.php:209 inc/cartridgeitem.class.php:372
 #: inc/certificate.class.php:209 inc/certificate.class.php:402
@@ -5505,8 +5505,8 @@ msgstr "Uute kassettide kogus"
 #: inc/rulecollection.class.php:2092
 msgid "Printer model"
 msgid_plural "Printer models"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] Printeri mudel"
+msgstr[1] "Printeri mudelid"
 
 #: inc/cartridgeitem.class.php:443 inc/cartridgeitem.class.php:613
 msgid "Send alarms on cartridges"
@@ -5588,8 +5588,8 @@ msgstr "Globaalne vaade"
 #: inc/central.class.php:68 inc/rssfeed.class.php:80
 msgid "RSS feed"
 msgid_plural "RSS feeds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "RSS feed"
+msgstr[1] "RSS feeds"
 
 #: inc/central.class.php:169
 #, php-format
@@ -5617,8 +5617,8 @@ msgstr "SQL koopia: ainult lugemisõigus"
 #: inc/profile.class.php:871
 msgid "Certificate"
 msgid_plural "Certificates"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Sertifikaat"
+msgstr[1] "Sertifikaadid"
 
 #: inc/certificate.class.php:124 inc/certificate.class.php:484
 #: inc/certificate_item.class.php:428
@@ -5805,8 +5805,8 @@ msgstr "Ei aegu"
 #: inc/certificatetype.class.php:45 inc/dropdown.class.php:907
 msgid "Certificate type"
 msgid_plural "Certificate types"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Sertifikaadi tüüp"
+msgstr[1] "Sertifikaadi tüübid"
 
 #: inc/change.class.php:178 inc/problem.class.php:411
 #: inc/ticket.class.php:2663
@@ -5889,8 +5889,8 @@ msgstr "Hindamine"
 #: inc/ticket.class.php:5008
 msgid "Approval"
 msgid_plural "Approvals"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Kinnitus"
+msgstr[1] "Kinnitused"
 
 #: inc/change.class.php:542 inc/problem.class.php:552
 msgctxt "status"
@@ -6090,8 +6090,8 @@ msgstr ""
 #, php-format
 msgid "Last %d change"
 msgid_plural "Last %d changes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Viimane %d muudatus"
+msgstr[1] "Viimased %d muudatused"
 
 #: inc/change.class.php:1171 inc/change.class.php:1225
 msgid "No change found."
@@ -17740,65 +17740,65 @@ msgstr ""
 
 #: inc/search.class.php:1534 inc/search.class.php:1858
 msgid "Show as map"
-msgstr ""
+msgstr "Näita kaardil"
 
 #: inc/search.class.php:1884 inc/search.class.php:1885
 msgid "Show the trashbin"
-msgstr ""
+msgstr "Näita prügikasti"
 
 #: inc/search.class.php:1933
 #, php-format
 msgid "%1$s %2$s (%3$s)"
-msgstr ""
+msgstr "%1$s %2$s (%3$s)"
 
 #: inc/search.class.php:1989 inc/search.class.php:1991
 #: inc/search.class.php:2009 inc/search.class.php:2073
 #: inc/search.class.php:2076 inc/search.class.php:2097
 #, php-format
 msgid "%1$s <> %2$s"
-msgstr ""
+msgstr "%1$s <> %2$s"
 
 #: inc/search.class.php:1996 inc/search.class.php:2082
 #, php-format
 msgid "%1$s < %2$s"
-msgstr ""
+msgstr "%1$s < %2$s"
 
 #: inc/search.class.php:2000 inc/search.class.php:2087
 #, php-format
 msgid "%1$s > %2$s"
-msgstr ""
+msgstr "%1$s > %2$s"
 
 #: inc/search.class.php:2208
 msgid "NOT"
-msgstr ""
+msgstr "MITTE"
 
 #: inc/search.class.php:2213
 msgid "AND"
-msgstr ""
+msgstr "JA"
 
 #: inc/search.class.php:2214
 msgid "OR"
-msgstr ""
+msgstr "VÕI"
 
 #: inc/search.class.php:2215
 msgid "AND NOT"
-msgstr ""
+msgstr "JA MITTE"
 
 #: inc/search.class.php:2216
 msgid "OR NOT"
-msgstr ""
+msgstr "VÕI MITTE"
 
 #: inc/search.class.php:2294
 msgid "rule"
-msgstr ""
+msgstr "reegel"
 
 #: inc/search.class.php:2299
 msgid "global rule"
-msgstr ""
+msgstr "globaalne reegel"
 
 #: inc/search.class.php:2304
 msgid "group"
-msgstr ""
+msgstr "grupp"
 
 #: inc/search.class.php:2331
 msgid "Fold search"
@@ -17806,18 +17806,18 @@ msgstr ""
 
 #: inc/search.class.php:2497 inc/search.class.php:2720
 msgid "Delete a rule"
-msgstr ""
+msgstr "Kustuta reegel"
 
 #: inc/search.class.php:2637
 msgid "Delete a global rule"
-msgstr ""
+msgstr "Kustuta globaalne reegel"
 
 #: inc/search.class.php:6747 inc/search.class.php:6774
 #: inc/search.class.php:6778 inc/search.class.php:6807
 #: inc/search.class.php:6825 inc/search.class.php:6848
 #: inc/search.class.php:6871
 msgid "not contains"
-msgstr ""
+msgstr "ei sisaldada"
 
 #: inc/search.class.php:6790 inc/search.class.php:6845
 msgid "before"
@@ -17858,15 +17858,15 @@ msgstr ""
 
 #: inc/slalevel.class.php:204
 msgid "Automatic reminders of SLA"
-msgstr ""
+msgstr "SLA automaatsed meeldetuletused"
 
 #: inc/slalevel_ticket.class.php:41
 msgid "SLA level for Ticket"
-msgstr ""
+msgstr "SLA tase Teatele"
 
 #: inc/slalevel_ticket.class.php:142
 msgid "Automatic actions of SLA"
-msgstr ""
+msgstr "Automaatsed tegevused SLA'le"
 
 #: inc/slm.class.php:57
 msgid "Service level"
@@ -17911,11 +17911,11 @@ msgstr "Ühenda"
 
 #: inc/software.class.php:1100
 msgid "Software deleted after merging"
-msgstr ""
+msgstr "Tarkvara kustatud pärast ühendamist"
 
 #: inc/softwarelicense.class.php:78
 msgid "Please select a software for this license"
-msgstr ""
+msgstr "Palun valige tarkvara litsents"
 
 #: inc/softwarelicense.class.php:357 inc/softwarelicense.class.php:613
 msgid "Technician in charge of the license"
@@ -17923,7 +17923,7 @@ msgstr ""
 
 #: inc/softwarelicense.class.php:370 inc/softwarelicense.class.php:632
 msgid "Group in charge of the license"
-msgstr ""
+msgstr "Litsentsi eest vastutav grupp"
 
 #: inc/softwarelicense.class.php:416 inc/softwarelicense.class.php:559
 #: inc/softwarelicense.class.php:996
