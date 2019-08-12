@@ -101,7 +101,7 @@ msgstr "Korduma kippuvad küsimused"
 
 #: ajax/dcroom_size.php:61 inc/rack.class.php:255
 msgid "No room found or selected"
-msgstr ""
+msgstr "Ruumi ei leitud või pole valitud"
 
 #. TRANS: %1$s is a type name - %2$s is a name
 #. TRANS: %1$s is the location, %2$s is the comment
@@ -734,16 +734,16 @@ msgstr "Lüüs: %s"
 
 #: ajax/dropdownTrackingDeviceType.php:51 front/find_num.php:72
 msgid "Enter the first letters (user, item name, serial or asset number)"
-msgstr ""
-"Sisesta esimesed tähed (kasutaja, seadme nimi, seeria- või inventarinumber)"
+msgstr "Sisesta esimesed tähed (kasutaja, seadme nimi, seeria- või inventarinumber)"
 
 #: ajax/getMapPoint.php:43 ajax/map.php:44
 msgid "Required argument missing!"
-msgstr ""
+msgstr "Nõutav argument puudub!"
 
 #: ajax/getMapPoint.php:58
 msgid "Element seems not geolocalized or cannot be found"
 msgstr ""
+"Tundub, et element pole geograafiliselt määratletud või seda pole võimalik leida"
 
 #: ajax/getMapPoint.php:75
 msgid "Location seems not geolocalized!"
@@ -2420,12 +2420,12 @@ msgstr "Impordi uusi kasutajaid"
 #: front/lock.form.php:56
 #, php-format
 msgid "You do not have rights to restore %s item."
-msgstr ""
+msgstr "Sul pole õiguseid, et taastada %s asi."
 
 #: front/lock.form.php:82
 #, php-format
 msgid "You do not have rights to delete %s item."
-msgstr ""
+msgstr "Sul pole õiguseid, et kustutada %s asi."
 
 #: front/login.php:92
 msgid "Log in again"
@@ -4216,15 +4216,15 @@ msgstr "Kasutajatuvastus IMAP/POP serveri kaudu"
 
 #: inc/auth.class.php:959
 msgid "Version 1"
-msgstr ""
+msgstr "Versioon 1"
 
 #: inc/auth.class.php:960
 msgid "Version 2"
-msgstr ""
+msgstr "Versioon 2"
 
 #: inc/auth.class.php:961
 msgid "Version 3+"
-msgstr ""
+msgstr "Versioon 3+"
 
 #: inc/auth.class.php:992 inc/authmail.class.php:87
 #: inc/ruleright.class.php:243
@@ -4291,7 +4291,7 @@ msgstr "CAS host"
 #. TRANS: for CAS SSO system
 #: inc/auth.class.php:1372
 msgid "CAS Version"
-msgstr ""
+msgstr "CAS Versioon"
 
 #. TRANS: for CAS SSO system
 #. TRANS: Proxy port
@@ -4827,7 +4827,7 @@ msgstr "Säilita"
 
 #: inc/authldap.class.php:3450
 msgid "Put in trashbin"
-msgstr ""
+msgstr "Liiguta prügikasti"
 
 #: inc/authldap.class.php:3451 inc/authldap.class.php:3453
 msgid "Withdraw dynamic authorizations and groups"
@@ -5607,7 +5607,7 @@ msgstr "Palun kustutage turvalisuse eesmärgil fail: %s"
 #: inc/central.class.php:180
 #, php-format
 msgid "%1$s tables not migrated to InnoDB engine."
-msgstr ""
+msgstr ""%1$s tabelid pole liigutatud InnoDB mootorisse."
 
 #: inc/central.class.php:188 inc/html.class.php:1574
 msgid "SQL replica: read only"
@@ -5820,7 +5820,7 @@ msgstr "Määra kõigile osalejatele märguanded"
 
 #: inc/change.class.php:195
 msgid "Processing change"
-msgstr ""
+msgstr "Töötlen muudatust"
 
 #: inc/change.class.php:196 inc/problem.class.php:183
 #: inc/problem.class.php:476
@@ -6083,7 +6083,7 @@ msgstr "Alamgrupid"
 
 #: inc/change.class.php:1126
 msgid "New change for this item..."
-msgstr ""
+msgstr "Uus muudatus sellele asjale..."
 
 #. TRANS : %d is the number of problems
 #: inc/change.class.php:1166
@@ -6289,7 +6289,7 @@ msgstr "Kas kustutame jäädavalt?"
 #: inc/transfer.class.php:3373
 msgctxt "button"
 msgid "Put in trashbin"
-msgstr ""
+msgstr "Liiguta prügikasti"
 
 #: inc/commondbtm.class.php:2655
 msgid "Template name"
@@ -6350,7 +6350,7 @@ msgstr "Teine üksus eksisteerib"
 
 #: inc/commondbtm.class.php:4138
 msgid "Item in the trashbin"
-msgstr ""
+msgstr "Asi on prügikastis"
 
 #. TRANS: %1$s is the user login, %2$s the message
 #: inc/commondbtm.class.php:4259
@@ -6491,36 +6491,36 @@ msgstr "Toote number"
 #: inc/commondcmodeldropdown.class.php:63
 #: inc/commondcmodeldropdown.class.php:159 inc/item_rack.class.php:517
 msgid "Weight"
-msgstr ""
+msgstr "Kaal"
 
 #: inc/commondcmodeldropdown.class.php:73
 #: inc/commondcmodeldropdown.class.php:169
 msgid "Required units"
-msgstr ""
+msgstr "Nõutvad üksused"
 
 #: inc/commondcmodeldropdown.class.php:81
 #: inc/commondcmodeldropdown.class.php:179 inc/rack.class.php:300
 msgid "Depth"
-msgstr ""
+msgstr "Sügavus"
 
 #: inc/commondcmodeldropdown.class.php:89
 #: inc/commondcmodeldropdown.class.php:188
 msgid "Power connections"
-msgstr ""
+msgstr "Toiteühendused"
 
 #: inc/commondcmodeldropdown.class.php:97
 #: inc/commondcmodeldropdown.class.php:198
 msgid "Power consumption"
-msgstr ""
+msgstr "Voolutarbivus"
 
 #: inc/commondcmodeldropdown.class.php:98
 #: inc/commondcmodeldropdown.class.php:108
 msgid "watts"
-msgstr ""
+msgstr "Vatti"
 
 #: inc/commondcmodeldropdown.class.php:107 inc/rack.class.php:305
 msgid "Max. power (in watts)"
-msgstr ""
+msgstr "Makismaalne voolutarbivus (vattides)"
 
 #: inc/commondcmodeldropdown.class.php:117
 #: inc/commondcmodeldropdown.class.php:208
@@ -6530,33 +6530,33 @@ msgstr ""
 #: inc/commondcmodeldropdown.class.php:125
 #: inc/commondcmodeldropdown.class.php:218
 msgid "Front picture"
-msgstr ""
+msgstr "Pilt eest"
 
 #: inc/commondcmodeldropdown.class.php:133
 #: inc/commondcmodeldropdown.class.php:231
 msgid "Rear picture"
-msgstr ""
+msgstr "Pilt tagant"
 
 #: inc/commondcmodeldropdown.class.php:314
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: inc/commondcmodeldropdown.class.php:315
 msgid "1/2"
-msgstr ""
+msgstr "1/2"
 
 #: inc/commondcmodeldropdown.class.php:316
 msgid "1/3"
-msgstr ""
+msgstr "1/3"
 
 #: inc/commondcmodeldropdown.class.php:317
 msgid "1/4"
-msgstr ""
+msgstr "1/4"
 
 #: inc/commondevice.class.php:119
 #, php-format
 msgid "%1$s items"
-msgstr ""
+msgstr "%1$s asjad"
 
 #: inc/commondropdown.class.php:501
 msgid "Product number"
@@ -6964,11 +6964,11 @@ msgstr[1] ""
 
 #: inc/commonitilobject.class.php:3132
 msgid "Any solution status"
-msgstr ""
+msgstr "Mis tahes lahenduse staatus"
 
 #: inc/commonitilobject.class.php:3147
 msgid "Last solution status"
-msgstr ""
+msgstr "Viimane lahenduse staatus"
 
 #: inc/commonitilobject.class.php:3183
 msgid "Resolution time"
@@ -7081,7 +7081,7 @@ msgstr "Autor %s"
 
 #: inc/commonitilobject.class.php:5905 inc/project.class.php:1051
 msgid "No item in progress."
-msgstr ""
+msgstr "Ükski asi pole töös."
 
 #: inc/commonitilobject.class.php:5932
 msgid "Assigned"
@@ -7089,7 +7089,7 @@ msgstr "Vastutaja"
 
 #: inc/commonitilobject.class.php:5938
 msgid "Planification"
-msgstr ""
+msgstr "Planeerimine"
 
 #: inc/commonitilobject.class.php:6070
 msgid "Timeline filter"
@@ -7155,8 +7155,8 @@ msgstr[1] ""
 #: inc/transfer.class.php:3523
 msgid "Document"
 msgid_plural "Documents"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Dokument"
+msgstr[1] "Dokumendid"
 
 #: inc/commonitilobject.class.php:6082 inc/commonitilobject.class.php:6083
 #: inc/notificationtargetchange.class.php:293
@@ -7170,8 +7170,8 @@ msgstr[1] ""
 #: inc/rulecollection.class.php:1842 inc/rulerightcollection.class.php:81
 msgid "Validation"
 msgid_plural "Validations"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Kinnitus"
+msgstr[1] "Kinnitused"
 
 #: inc/commonitilobject.class.php:6105
 msgid "Actions historical"
@@ -7189,7 +7189,7 @@ msgstr "Kinnitamise päring"
 #: inc/notificationtargetchange.class.php:56
 #: inc/notificationtargetticket.class.php:148
 msgid "Validation request answer"
-msgstr "Kinnitamise vastus"
+msgstr "Kinnitamise palve vastus"
 
 #: inc/commonitilobject.class.php:6597
 msgid "Followup was already promoted"
@@ -7197,7 +7197,7 @@ msgstr ""
 
 #: inc/commonitilobject.class.php:6602
 msgid "Promote to Ticket"
-msgstr ""
+msgstr "Muuda teateks"
 
 #: inc/commonitilobject.class.php:6607 inc/knowbaseitem.class.php:200
 #: inc/knowbaseitemtranslation.class.php:91 inc/user.class.php:2385
@@ -7219,12 +7219,12 @@ msgstr "Isiklik"
 #: inc/commonitilobject.class.php:6707
 #, php-format
 msgid "Last edited on %1$s by %2$s"
-msgstr ""
+msgstr "Viimati muudetud %1$s %2$s poolt"
 
 #: inc/commonitilobject.class.php:6718
 #, php-format
 msgid "Merged from Ticket %1$s"
-msgstr ""
+msgstr "Liidetud teatest %1$s"
 
 #: inc/commonitilobject.class.php:6726
 #, php-format
@@ -7258,7 +7258,7 @@ msgstr ""
 #: inc/commonitilobject.class.php:6876
 #, php-format
 msgid "# %s description"
-msgstr ""
+msgstr "# %s kirjeldus"
 
 #: inc/commonitiltask.class.php:263 inc/commonitiltask.class.php:392
 #: inc/reminder.class.php:607 inc/reminder.class.php:652
@@ -7280,8 +7280,8 @@ msgstr ""
 #: inc/tasktemplate.class.php:63 inc/tasktemplate.class.php:99
 msgid "Task category"
 msgid_plural "Task categories"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Ülesande kateoogria"
+msgstr[1] "Ülesande kateoogriad"
 
 #: inc/commonitiltask.class.php:602
 msgid "Public followup"
@@ -7290,7 +7290,7 @@ msgstr ""
 #: inc/commonitiltask.class.php:637
 #: inc/notificationtargetcommonitilobject.class.php:754
 msgid "Group in charge of the task"
-msgstr ""
+msgstr "Ülesande eest vastutav grupp"
 
 #: inc/commonitiltask.class.php:686
 #: inc/notificationtargetcommonitilobject.class.php:1506
@@ -7310,14 +7310,14 @@ msgstr ""
 
 #: inc/commonitiltask.class.php:781
 msgid "Group in charge"
-msgstr ""
+msgstr "Vastutav grupp"
 
 #: inc/commonitiltask.class.php:874 inc/commonitiltask.class.php:1425
 #: inc/dropdown.class.php:841 inc/tasktemplate.class.php:52
 msgid "Task template"
 msgid_plural "Task templates"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Ülesande trafarett"
+msgstr[1] "Ülesande trafaretid"
 
 #. TRANS: %1$s is a type, %2$$ is a date, %3$s is a date
 #: inc/commonitiltask.class.php:1125
@@ -7335,8 +7335,8 @@ msgstr ""
 #: inc/planning.class.php:182 inc/ticketrecurrent.class.php:84
 msgid "Information"
 msgid_plural "Information"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Informatsioon"
+msgstr[1] "Informatsioon"
 
 #: inc/commonitiltask.class.php:1252 inc/planning.class.php:164
 #: inc/planning.class.php:183
@@ -7345,7 +7345,7 @@ msgstr "Vaja teha"
 
 #: inc/commonitiltask.class.php:1255
 msgid "Planned"
-msgstr ""
+msgstr "Planeeritud"
 
 #: inc/commonitiltask.class.php:1261 inc/planning.class.php:167
 #: inc/planning.class.php:184
@@ -7354,11 +7354,11 @@ msgstr "Tehtud"
 
 #: inc/commonitiltask.class.php:1305 inc/commonitiltask.class.php:1331
 msgid "By user"
-msgstr ""
+msgstr "Kasutaja poolt"
 
 #: inc/commonitiltask.class.php:1308 inc/commonitiltask.class.php:1334
 msgid "By group"
-msgstr ""
+msgstr "Grupi poolt"
 
 #: inc/commonitiltask.class.php:1325 inc/reminder.class.php:731
 msgid "Begin"
@@ -7394,7 +7394,7 @@ msgstr ""
 #: inc/commonitiltask.class.php:1924
 #, php-format
 msgid "%1$s"
-msgstr ""
+msgstr "%1$s"
 
 #: inc/commonitiltask.class.php:1937
 msgid "No tasks do to."
@@ -7540,13 +7540,15 @@ msgstr "Valideeri"
 #: inc/commonitilvalidation.class.php:1452
 #, php-format
 msgid "%1$s (%2$d%%) "
-msgstr ""
+msgstr "%1$s (%2$d%%) "
 
 #: inc/commonitilvalidation.class.php:1472
 msgid ""
 "This item is waiting for approval, do you really want to resolve or close "
 "it?"
 msgstr ""
+"See asi ootab kinnitust, kas sa tõesti tahad selle märkida lahendatuks või"
+"või suletuks"
 
 #: inc/commontreedropdown.class.php:50 inc/commontreedropdown.class.php:608
 #: inc/group.class.php:227 inc/itilcategory.class.php:53
@@ -8446,19 +8448,19 @@ msgstr "Salasõna on liiga lühike!"
 
 #: inc/config.class.php:1462 inc/config.class.php:1465
 msgid "Password must include at least a digit!"
-msgstr ""
+msgstr "Parool peab sisaldama vähemalt ühte numbrit!"
 
 #: inc/config.class.php:1472 inc/config.class.php:1475
 msgid "Password must include at least a lowercase letter!"
-msgstr ""
+msgstr "Parool peab sisaldama vähemalt ühte väikest tähte!"
 
 #: inc/config.class.php:1482 inc/config.class.php:1485
 msgid "Password must include at least a uppercase letter!"
-msgstr ""
+msgstr "Parool peab sisaldama vähemalt ühte suurt tähte!"
 
 #: inc/config.class.php:1492 inc/config.class.php:1495
 msgid "Password must include at least a symbol!"
-msgstr ""
+msgstr "Parool peab sisaldama vähemalt ühte kirjavahemärki!"
 
 #: inc/config.class.php:1524
 msgid "PHP opcode cache"
@@ -8467,22 +8469,22 @@ msgstr ""
 #: inc/config.class.php:1527 inc/config.class.php:2437
 #, php-format
 msgid "%s extension is installed"
-msgstr ""
+msgstr "%s laiendus on installeeritud"
 
 #: inc/config.class.php:1528
 #, php-format
 msgid "The \"%s\" extension is installed"
-msgstr ""
+msgstr "\"%s\" laiendus on installeeritud"
 
 #: inc/config.class.php:1545
 #, php-format
 msgid "%1$ss memory usage is too low or too high"
-msgstr ""
+msgstr "%1$ss mälu kasutus on liiga madal või liiga kõrge"
 
 #: inc/config.class.php:1548 inc/config.class.php:1625
 #, php-format
 msgid "%1$s memory usage is correct"
-msgstr ""
+msgstr "%1$s mälu kasutus on korrektne"
 
 #: inc/config.class.php:1557
 msgid "Hits rate"
@@ -8774,15 +8776,15 @@ msgstr ""
 
 #: inc/config.class.php:2641
 msgid "error log file"
-msgstr ""
+msgstr "Errori logifail"
 
 #: inc/config.class.php:2919
 msgid "You are using a development version, be careful!"
-msgstr ""
+msgstr "Sa kasutad arednusversiooni, ole ettevaatlik!"
 
 #: inc/config.class.php:2920
 msgid "I know I am using a unstable version."
-msgstr ""
+msgstr "Ma tean, et kasutan ebastabiilset versiooni."
 
 #: inc/config.class.php:2926
 msgid "Please check the unstable version checkbox."
@@ -8794,15 +8796,15 @@ msgstr ""
 
 #: inc/config.class.php:3175
 msgid "Change all"
-msgstr ""
+msgstr "Muuda kõiki"
 
 #: inc/config.class.php:3191
 msgid "Add/update relation between items"
-msgstr ""
+msgstr "Lisa/uuenda asjade vahelist seost"
 
 #: inc/config.class.php:3195
 msgid "Delete relation between items"
-msgstr ""
+msgstr "Kustuta asjadevaheline seos"
 
 #: inc/config.class.php:3200 inc/log.class.php:1040
 #: inc/notificationtargetfieldunicity.class.php:49
@@ -8815,7 +8817,7 @@ msgstr "kustutas"
 
 #: inc/config.class.php:3208 inc/log.class.php:1056
 msgid "Restore the item"
-msgstr ""
+msgstr "Taasta asi"
 
 #: inc/config.class.php:3212 inc/notificationtargetfieldunicity.class.php:49
 msgid "Update the item"
